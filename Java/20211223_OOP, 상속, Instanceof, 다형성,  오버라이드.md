@@ -82,7 +82,7 @@ public void method(Object v){
 객체 타입이면 처리 가능한 로직의 재사용성 극대화 메소드
 }
 	  
-	- 다형성 필요성
+## 다형성 필요성
 	```
 		class A{} -> class A extends Object{}
 		class B{} extends A{}
