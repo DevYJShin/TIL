@@ -34,9 +34,6 @@ http://www.tcpschool.com/java/java_inheritance_concept
  
  
 ```
-{ % highlight python linenos % }
-code_contents
-{ % endhighlight % }
 package step03.oop;
 
 class A {} 	     // 부모 클래스 A
@@ -71,10 +68,6 @@ public class Instanceof {
 //		System.out.println(b1 instanceof C); // false 에러! 
 	}
 }
-{ % highlight python linenos % }
-code_contents
-{ % endhighlight % }
-
 ```
 
 # 다형성  
