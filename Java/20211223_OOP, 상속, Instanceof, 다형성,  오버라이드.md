@@ -67,9 +67,9 @@ public class Instanceof {
 		System.out.println(b1 instanceof A); // true
 		System.out.println(b1 instanceof B); // true
 //		System.out.println(b1 instanceof C); // false 에러! 
-		// Exception in thread "main" java.lang.Error: Unresolved compilation problem: Incompatible conditional operand types B and C	
 	}
 }
+
 '''
 
 # 다형성  
