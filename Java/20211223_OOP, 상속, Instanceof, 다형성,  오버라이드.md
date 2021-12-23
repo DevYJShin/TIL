@@ -83,7 +83,7 @@ public void method(Object v){
 }
 	  
 ## 다형성 필요성
-	```
+```
 		class A{} -> class A extends Object{}
 		class B{} extends A{}
 		class C{} extends B{}
@@ -118,6 +118,6 @@ public void method(Object v){
 		= new B(); X
 		= new C(); X
 		= new D(); O
-	```
+```
 
 # 오버라이드 (override)
