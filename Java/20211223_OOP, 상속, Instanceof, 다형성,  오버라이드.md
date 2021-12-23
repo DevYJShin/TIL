@@ -35,7 +35,7 @@ http://www.tcpschool.com/java/java_inheritance_concept
  
 '''
 
-package step03.oop;
+
 
 class A {} 	     // 부모 클래스 A
 class B extends A {} // A를 상속 받는 B 클래스
