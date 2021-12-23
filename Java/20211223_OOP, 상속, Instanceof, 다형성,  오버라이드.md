@@ -26,8 +26,51 @@ http://www.tcpschool.com/java/java_inheritance_concept
 
 # Instanceof 
 
+## 객체의 타입 확인(instanceof)
+ 
+ * 다형성으로 인한 타입과 객체 혼란 야기 가능
+ * 문법 : 객체 instanceof 타입 // 왼쪽은 확인할 대상, 오른쪽은 왼쪽이 오른쪽으로 객체가 바뀔 수 있는지 확인
+ * 결과 : boolean (true or false)
+ 
+ 
+'''
+package step03.oop;
 
+class A {} 			 // 부모 클래스 A
+class B extends A {} // A를 상속 받는 B 클래스
+class C extends A {} // A를 상속 받는 C 클래스
 
+public class Instanceof {
+	public static void main(String[] args) {
+		A a1 = new A();
+		A a2 = new B();
+		A a3 = new C();
+		
+		System.out.println(a1 instanceof A); // true
+		System.out.println(a1 instanceof B); // false - B a12 = new A();
+		System.out.println(a1 instanceof C); // false - C a13 = new A();
+		
+		System.out.println();
+		
+		System.out.println(a2 instanceof A); // true
+		System.out.println(a2 instanceof B); // true
+		System.out.println(a2 instanceof C); // false
+		
+		System.out.println();
+		
+		System.out.println(a3 instanceof A); // true
+		System.out.println(a3 instanceof B); // false
+		System.out.println(a3 instanceof C); // true
+		
+		B b1 = new B();
+		System.out.println(b1 instanceof A); // true
+		System.out.println(b1 instanceof B); // true
+//		System.out.println(b1 instanceof C); // false 에러! 
+		// Exception in thread "main" java.lang.Error: Unresolved compilation problem: Incompatible conditional operand types B and C
+		
+	}
+}
+'''
 
 # 다형성  
 
