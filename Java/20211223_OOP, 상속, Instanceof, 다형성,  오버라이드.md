@@ -70,9 +70,54 @@ public class Instanceof {
 }
 ```
 
-# 다형성  
+# 다형성 (Polymorphism)
 
+## 상속 전제 조건
+* 속성(데이터)들이 일치하는 존재 클래스(super/parent/부모)를 기반으로 하위 클래스 개발
+* 문법
+상위타입 변수 = 모든 자식 객체;
+자식타입 변수 = (자식타입)상위타입변수;
+		
+public void method(Object v){
+객체 타입이면 처리 가능한 로직의 재사용성 극대화 메소드
+}
+	  
+	- 다형성 필요성
+	```
+		class A{} -> class A extends Object{}
+		class B{} extends A{}
+		class C{} extends B{}
+		class D{} -> class D extends Object{}
+		
+		Object o = new Object(); O
+		= new A(); O
+		= new B(); O
+		= new C(); O
+		= new D(); O
 
-
+		A o = new Object();  X
+		= new A();  O
+		= new B();  O
+		= new C();  O
+		= new D();  X
+	
+		B o = new Object(); X (부모가 자식타입으로 안됨)
+		= new A();  X (부모가 자식타입으로 안됨)
+		= new B();  O
+		= new C();  O (자식 객체는 부모 타입으로 만들어 질 수 있다) 
+		= new D();  X
+		
+		C o = new Object(); X (부모가 자식타입으로 안됨)
+		= new A();  X
+		= new B();  X
+		= new C();  O
+		= new D();  X (관계가 없음)
+	
+		D o = new Object(); X (부모가 자식타입으로 안됨)
+		= new A(); X
+		= new B(); X
+		= new C(); X
+		= new D(); O
+	```
 
 # 오버라이드 (override)
