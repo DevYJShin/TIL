@@ -18,7 +18,7 @@ C언어와 같은 절차 지향적인 프로그래밍이 아닌 객체의 관점
 	* 필요성 : 코드의 재사용성 -> 개발 속도 향상
 	* 제약 : 자식 = 부모 관계에서만 성립
 
-참고 링크 
+참고 링크:  
 https://ko.wikipedia.org/wiki/%EC%83%81%EC%86%8D_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 http://www.tcpschool.com/java/java_inheritance_concept
 
