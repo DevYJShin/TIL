@@ -34,10 +34,10 @@ http://www.tcpschool.com/java/java_inheritance_concept
  
  
 '''
-'''
+
 package step03.oop;
 
-class A {} 			 // 부모 클래스 A
+class A {} 	     // 부모 클래스 A
 class B extends A {} // A를 상속 받는 B 클래스
 class C extends A {} // A를 상속 받는 C 클래스
 
@@ -48,8 +48,8 @@ public class Instanceof {
 		A a3 = new C();
 		
 		System.out.println(a1 instanceof A); // true
-		System.out.println(a1 instanceof B); // false - B a12 = new A();
-		System.out.println(a1 instanceof C); // false - C a13 = new A();
+		System.out.println(a1 instanceof B); // false
+		System.out.println(a1 instanceof C); // false 
 		
 		System.out.println();
 		
@@ -67,11 +67,9 @@ public class Instanceof {
 		System.out.println(b1 instanceof A); // true
 		System.out.println(b1 instanceof B); // true
 //		System.out.println(b1 instanceof C); // false 에러! 
-		// Exception in thread "main" java.lang.Error: Unresolved compilation problem: Incompatible conditional operand types B and C
-		
+		// Exception in thread "main" java.lang.Error: Unresolved compilation problem: Incompatible conditional operand types B and C	
 	}
 }
-'''
 '''
 
 # 다형성  
