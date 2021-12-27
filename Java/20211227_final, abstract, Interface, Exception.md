@@ -76,6 +76,7 @@ https://wikidocs.net/219
       
    ex) public class AI2022Java extends Printer implements Connector, Javaable{ // 인터페이스는 implements 키워드로 사용이 가능하다.
    
+```
    	public static void main(String[] args) {
 		AI2022Java ai2022Java = new AI2022Java(); // 2022Java 객체 생성
 		ai2022Java.connectComputer();
@@ -84,7 +85,8 @@ https://wikidocs.net/219
 		Printable print2 = new AI18Printer(); // Interface 가져다가 사용하는 다른 클래스 객체는 사용이 가능함 (상속처럼 사용이 되는 것처럼 보임)
 		
 	}
-      
+```
+
 # Exception
 
 >프로그램을 만들다 보면 수없이 많은 오류가 발생한다. 
@@ -143,3 +145,4 @@ https://wikidocs.net/219
 			- 런타입 계열
 				java.lang.RuntimeException 상속
 				생성자 두개 다중정의
+참고 : https://wikidocs.net/229
