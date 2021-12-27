@@ -145,4 +145,6 @@ https://wikidocs.net/219
 			- 런타입 계열
 				java.lang.RuntimeException 상속
 				생성자 두개 다중정의
+				
+				
 참고 : https://wikidocs.net/229
