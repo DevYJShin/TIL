@@ -59,3 +59,4 @@ Synchronized를 통해 관리하면 되며 다양한 변화에 대응하기 위�
 물론 이 경우에서도 테스트를 위한 모의객체를 만들고 혹은 다른 목적으로 사용한다면 멀티쓰레드 환경에서 싱글톤을 사용하듯이 사용하면 된다.
 
 참고 : https://velog.io/@kyle/%EC%9E%90%EB%B0%94-%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4-Singleton-Pattern
+https://elfinlas.github.io/2019/09/23/java-singleton/
