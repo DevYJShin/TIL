@@ -1,8 +1,11 @@
 # ServletScope
 
 > ① Application Scope : ServletContext → getServletContext( );
+> 
 > ② Session Scope : HttpSession → requestgetSession( );
+> 
 > ③ Request Scope : HttpServletRequest → doGet(request,  );
+> 
 > ④ Page Scope : (x) 자주 사용 안함 
 
 # ServletLifeCycle
